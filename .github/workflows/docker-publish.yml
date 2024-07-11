@@ -28,7 +28,6 @@ jobs:
      uses: sachin-ade24/03_05_Integration_Repo2/.github/workflows/integration.yml@main
      permissions: 
         contents: read
-        checks: write
   
   build:
     needs: [integration]
